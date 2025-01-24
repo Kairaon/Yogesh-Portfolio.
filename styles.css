@@ -343,11 +343,22 @@ body {
   display: inline-block; /* Ensures it behaves like inline text */
 }
 
-.insta-song-heading {
-  display: block;  /* Forces the heading to take up the entire width of the container */
-  width: 100%;     /* Ensure it spans the full container width */
-  text-align: center;  /* If you want to center it */
+.insta-song-links {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto a new line */
+  justify-content: space-between; /* Distribute items with space between them */
+  gap: 20px; /* Add space between each Instagram song */
 }
+
+.insta-song-heading {
+  display: block; /* Makes the heading a block-level element */
+  width: 100%; /* Ensures the heading takes the full width */
+  clear: both; /* Clears any previous floating elements */
+  text-align: center; /* Center the text */
+  font-size: 24px; /* Font size for the heading */
+  margin-bottom: 20px; /* Adds margin below the heading */
+}
+
 
 
 
