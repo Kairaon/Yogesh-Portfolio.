@@ -343,6 +343,13 @@ body {
   display: inline-block; /* Ensures it behaves like inline text */
 }
 
+.insta-song-heading {
+  display: block;  /* Forces the heading to take up the entire width of the container */
+  width: 100%;     /* Ensure it spans the full container width */
+  text-align: center;  /* If you want to center it */
+}
+
+
 
 
 
