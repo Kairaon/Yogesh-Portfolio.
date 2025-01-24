@@ -22,7 +22,7 @@ body {
 
   /* Add this to styles.css */
 .about p {
-  font-family: 'Roboto', sans-serif; /* Use a modern, clean font */
+  font-family: 'Poppins', sans-serif; /* Use a modern, clean font */
   font-size: 1.1rem; /* Increase the font size */
   line-height: 1.8; /* Add line spacing for better readability */
   letter-spacing: 0.5px; /* Add spacing between letters */
