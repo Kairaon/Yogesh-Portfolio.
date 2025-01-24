@@ -350,12 +350,14 @@ body {
   gap: 20px; /* Add space between each Instagram song */
 }
 
+
 .insta-song-heading {
   display: block; /* Makes the heading a block-level element */
   width: 100%; /* Ensures the heading takes the full width */
   clear: both; /* Clears any previous floating elements */
   text-align: center; /* Center the text */
-  font-size: 24px; /* Font size for the heading */
+  font-size: 1.75rem; /* Font size similar to h3 */
+  font-weight: bold; /* Makes the text bold */
   margin-bottom: 20px; /* Adds margin below the heading */
 }
 
