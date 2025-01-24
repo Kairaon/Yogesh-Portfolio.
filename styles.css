@@ -98,13 +98,22 @@ body {
   .contact form button:hover {
     background-color: #555;
   }
-  
   .footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-  }
+}
+
+.footer a {
+    color: #0073e6; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Optional hover effect */
+}
+
   .icon-image {
     max-width: 50px; /* Adjust the size as needed */
     max-height: 50px; /* Adjust the size as needed */
